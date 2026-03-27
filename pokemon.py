@@ -63,9 +63,42 @@ if catch == 0 :
         input("It will be put into your inventory")
 
     else:
-        print("You missed...")
+        print("You missed and it ran away")
     
 
 
 elif catch == 1:
     print("too bad you gonna do it anyways for now")
+    input("press enter to throw a pokeball!")
+
+    if chance <= pokemon['catch']:
+        input("YOU CAUGHT IT!!")
+        input("It will be put into your inventory")
+
+    else:
+        print("You missed and it ran away")
+
+place = int(input("Where to now?    Town 0    Beach 1     Forest 2:     ")) 
+        
+
+if place == 0 :
+    input("perfect, maybe you can pick up some essetentials or buy something")
+
+
+
+
+
+elif place == 1 :
+    input("it's such a nice sunny day, perfect for the beach") 
+
+
+
+
+
+
+else:
+    input("LET'S GO ON AN ADVENTURE!")
+
+
+
+
